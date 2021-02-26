@@ -3,14 +3,17 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.webdriver</groupId>
 	<artifactId>AmazonTests</artifactId>
-	<version>1.0</version>
+	<version>SNAPSHOT-1.0</version>
 	<name>AmazonWebdriverTests</name>
+	<url>http://maven.apache.org</url>
+	
 
 	<description>Selenium Load Testing Example Using TestNG and Maven</description>
 	<!-- Add Following Lines in Your POM File -->
 	<properties>
 		<selenium.version>2.53.1</selenium.version>
 		<testng.version>6.9.10</testng.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
 		<dependency>
