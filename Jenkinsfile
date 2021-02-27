@@ -6,21 +6,21 @@ stage('Clean')
 {
 steps{
 echo "Cleaning.........."
-bat "mvn clean"
+bat "clean"
 }
 }
 stage('Compile') 
 {
 steps{
 echo "Compile the Code.........."
-bat "mvn compile"
+bat "compile"
 }
 }
 stage('Test') 
 {
 steps{
 echo "Running  the Tests and creating SNASHOT Jar.........."
-bat "mvn test"
+bat "test"
 }
 }
 stage('Deploy') 
