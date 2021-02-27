@@ -2,25 +2,25 @@ pipeline{
 agent any
 stages 
 {
-stage('Build') 
+stage('Clean') 
 {
 steps{
-echo "Building the Code.........."
+echo "Cleaning.........."
 bat "mvn clean"
-}
-}
-stage('Test') 
-{
-steps{
-echo "Testing the Code.........."
-bat "mvn test"
 }
 }
 stage('Compile') 
 {
 steps{
-echo "Compiling the Project.........."
+echo "Compile the Code.........."
 bat "mvn compile"
+}
+}
+stage('Test') 
+{
+steps{
+echo "Running  the Tests and creating SNASHOT Jar.........."
+bat "mvn test"
 }
 }
 stage('Deploy') 
