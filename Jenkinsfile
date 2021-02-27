@@ -2,7 +2,7 @@ pipeline{
 agent any
 tools { 
         maven 'Maven 3.3.1' 
-        
+        jdk 'jdk8' 
     }
 stages 
 {
@@ -10,7 +10,7 @@ stage('Clean')
 {
 steps{
 echo "Cleaning.........."
-bat "mvn clean"
+bat "mvn clean" 
 }
 }
 stage('Compile') 
