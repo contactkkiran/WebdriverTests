@@ -51,6 +51,8 @@ public class LoginTest {
 	String loginPageTitle = objLogin.getLoginTitle();
 	Assert.assertTrue(loginPageTitle.toLowerCase().contains("guru99 bank"));
 	//login to application
+	
+	//Suggent you to generate new create from the bank url
 	objLogin.login("mngr318464", "bezyteq");
 	// go the next page
 	objHomePage = new HomePage(driver);
