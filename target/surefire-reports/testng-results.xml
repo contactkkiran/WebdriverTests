@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="313361" started-at="2017-11-03T02:39:33Z" finished-at="2017-11-03T02:44:47Z">
+  <suite name="Suite" duration-ms="16111" started-at="2021-04-04T16:07:28Z" finished-at="2021-04-04T16:07:44Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="313361" started-at="2017-11-03T02:39:33Z" finished-at="2017-11-03T02:44:47Z">
-      <class name="com.amazon.AmazonSearch">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.amazon.AmazonSearch@68837a77]" name="beforeClass" is-config="true" duration-ms="82863" started-at="2017-11-03T08:09:33Z" finished-at="2017-11-03T08:10:56Z">
+    <test name="Test" duration-ms="16111" started-at="2021-04-04T16:07:28Z" finished-at="2021-04-04T16:07:44Z">
+      <class name="com.tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.LoginTest@735f7ae5]" name="setup" is-config="true" duration-ms="9485" started-at="2021-04-04T21:37:28Z" finished-at="2021-04-04T21:37:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="verifySearchButton()[pri:0, instance:com.amazon.AmazonSearch@68837a77]" name="verifySearchButton" duration-ms="222252" started-at="2017-11-03T08:10:56Z" finished-at="2017-11-03T08:14:38Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct()[pri:0, instance:com.tests.LoginTest@735f7ae5]" name="test_Home_Page_Appear_Correct" duration-ms="3649" started-at="2021-04-04T21:37:38Z" finished-at="2021-04-04T21:37:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchButton -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.amazon.AmazonSearch@68837a77]" name="afterClass" is-config="true" duration-ms="8141" started-at="2017-11-03T08:14:39Z" finished-at="2017-11-03T08:14:47Z">
+        </test-method> <!-- test_Home_Page_Appear_Correct -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.tests.LoginTest@735f7ae5]" name="testDown" is-config="true" duration-ms="2916" started-at="2021-04-04T21:37:41Z" finished-at="2021-04-04T21:37:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.amazon.AmazonSearch -->
+        </test-method> <!-- testDown -->
+      </class> <!-- com.tests.LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

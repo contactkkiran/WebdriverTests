@@ -3,17 +3,7 @@
 <suite name="Failed suite [Suite]">
   <test name="Test">
     <classes>
-      <class name="com.amazon.AmazonSearch"/>
+      <class name="com.tests.LoginTest"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)">
-    <classes>
-      <class name="com.amazon.AmazonSearch">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="verifySearchButton"/>
-        </methods>
-      </class> <!-- com.amazon.AmazonSearch -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
