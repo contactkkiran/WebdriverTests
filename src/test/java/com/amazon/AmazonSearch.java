@@ -35,7 +35,6 @@ public class AmazonSearch {
 
 	@AfterClass
 	public void afterClass() {
-		driver.close();
 		driver.quit();
 
 	}
@@ -45,11 +44,16 @@ public class AmazonSearch {
 		// driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://www.amazon.in");
-		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("cheapest Samsung Galaxy S8");
-		Thread.sleep(5000);
-
-		driver.findElement(
-				By.xpath("//input[@id='nav-search-submit-button']")).click();
+		
+//		Assert.assertEquals(driver.getTitle(), "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
+		
+		
+		
+//		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("cheapest Samsung Galaxy S8");
+//		Thread.sleep(5000);
+//
+//		driver.findElement(
+//				By.xpath("//input[@id='nav-search-submit-button']")).click();
 		
 		
 	}
