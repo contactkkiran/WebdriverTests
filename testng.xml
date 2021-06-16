@@ -2,8 +2,8 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <!-- <class name="com.amazon.AmazonSearch"/> -->
-      <class name="com.tests.LoginTest"/>
+      <class name="com.amazon.AmazonSearch"/>
+      <!-- <class name="com.tests.LoginTest"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
